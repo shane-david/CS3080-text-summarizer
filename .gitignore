@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# NLTK downloaded data 
+nltk_data/
+
+# Test files
+*.txt
+*.pdf
+*.docx
+
+# IDE / editor junk
+.vscode/
+.idea/
