@@ -17,9 +17,7 @@ print()
 
 # prompt user for file path (file_tils handls error checking)
 file_path = input("Please enter the path to the file you want to summarize: ")
-
-# use file_utils to read the file as a string ready for summarization 
-article = f.read_txt(file_path) 
+article = f.read_file(file_path)
 
 # prompt user for how they would like to summarizer
 sum_type = int(input("Please enter an integer for the type of summarization you want:\n1 Frequency Based\n2 Transformer Based \n3 Info\n"))
