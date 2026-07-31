@@ -41,7 +41,7 @@ match sum_type:
 
     case 3:
 
-        print("<INSERT EXPLANATION>")
+        print("Frequency based summarization returns the most relevant sentences in the article without generating new content. Transformer based summarization takes more computation power but produces a more fluent summary.")
 
     case _:
 

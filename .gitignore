@@ -9,6 +9,7 @@ nltk_data/
 # Test files
 *.txt
 *.pdf
+!Summarizer-Presentation.pdf
 *.docx
 
 # IDE / editor junk
